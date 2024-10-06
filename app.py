@@ -63,7 +63,7 @@ with st.container():
             ¡Bienvenido a Droxbit, donde la tecnología y el gaming son más que un hobby, son nuestro estilo de vida!
             """
         )
-        st.write("[Más sobre nosotros>](https://valerapp.com/about/)")
+        st.write("[Más sobre nosotros>](https://www.youtube.com/watch?v=dKTFpjqiVfE)")
     with right_column:
         st_lottie(load_lottieurl(lottie_file), height=400)
 
@@ -84,7 +84,7 @@ with st.container():
             Aprende a utilizar nuevas herramientas digitales y maximiza el potencial de tu tecnología favorita con nuestros tutoriales paso a paso. Cubrimos desde configuraciones básicas hasta hacks avanzados.   
             """
         )
-        st.write("[Ver servicios >](https://valerapp.com/services/)")
+        st.write("[Ver servicios >](https://www.youtube.com/watch?v=kO80u5yKl5Q)")
 
 with st.container():
     st.write("---")
@@ -100,7 +100,7 @@ with st.container():
             Te ayudamos a elegir los mejores gadgets según tus necesidades y presupuesto. Realizamos análisis profundos y comparaciones para que siempre compres lo mejor.
             """
         )
-        st.write("[Ver servicios >](https://valerapp.com/services/)")
+        st.write("[Ver servicios >](https://www.youtube.com/watch?v=EFWwlgJg7Zg)")
 
 with st.container():
     st.write("---")
@@ -116,7 +116,7 @@ with st.container():
             Exploramos lo último en el mundo de los videojuegos, con reseñas detalladas que cubren gameplay, gráficos, historia y más, para que tomes la mejor decisión antes de j
             """
         )
-        st.write("[Ver servicios >](https://valerapp.com/services/)")
+        st.write("[Ver servicios >](https://www.youtube.com/watch?v=JfFEWkHXq6o)")
         
 with st.container():
     st.write("---")
@@ -132,7 +132,7 @@ with st.container():
             Asesoramos a empresas y personas sobre las mejores herramientas digitales para mejorar la productividad, la seguridad y la eficiencia en su vida diaria o en sus negocios.
             """
         )
-        st.write("[Ver servicios >](https://valerapp.com/services/)")
+        st.write("[Ver servicios >](https://www.youtube.com/watch?v=IKuwoKgHDXA)")
 
 
 # contacto
