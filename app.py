@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 # Configuración de la página
-st.set_page_config(page_title="Grupo VIP Droxbit", page_icon="💎", layout="centered")
+st.set_page_config(page_title="El Contador - Grupo VIP", page_icon="📊", layout="centered")
 
 # Estilos personalizados
 st.markdown("""
@@ -10,13 +10,13 @@ st.markdown("""
     .title {
         font-size: 36px;
         font-weight: bold;
-        color: #2c3e50;
+        color: #1e272e;
         text-align: center;
         margin-bottom: 10px;
     }
     .desc {
         font-size: 18px;
-        color: #34495e;
+        color: #485460;
         text-align: center;
         margin-bottom: 30px;
     }
@@ -24,28 +24,28 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Título principal estilizado
-st.markdown('<div class="title">💎 Acceso al Grupo VIP de Droxbit</div>', unsafe_allow_html=True)
-st.markdown('<div class="desc">Bienvenido a nuestro exclusivo <b>Grupo VIP</b> 🎉<br>Para formar parte, solo debes realizar un único pago de <b>S/ 40.00</b>.</div>', unsafe_allow_html=True)
+st.markdown('<div class="title">📊 Acceso VIP - El Contador</div>', unsafe_allow_html=True)
+st.markdown('<div class="desc">Bienvenido al exclusivo <b>Grupo VIP de apuestas deportivas</b> 🏆<br>Accede con un único pago de <b>S/ 40.00</b> y mejora tus jugadas.</div>', unsafe_allow_html=True)
 
 # Beneficios
 st.markdown("""
-### 🔑 Con tu membresía VIP obtendrás:
-- 🎮 Acceso prioritario a contenido exclusivo.
-- 🤖 Recomendaciones personalizadas en tecnología y gaming.
-- 🧠 Consejos avanzados sobre productividad digital.
-- 🕹️ Participación en sorteos y eventos especiales.
+### 🧠 ¿Qué obtienes con tu acceso VIP?
+- 📈 Análisis diarios de partidos y estadísticas.
+- 💰 Recomendaciones seguras para apuestas deportivas.
+- 🏅 Acceso anticipado a pronósticos de expertos.
+- 🎯 Estrategias de gestión de banca y control de riesgo.
+- 🗣️ Comunidad privada con tips en tiempo real.
 """)
 
 # QR y método de pago
-st.markdown("### 📲 Escanea el siguiente QR para realizar el pago de **S/ 40.00** con cualquier billetera móvil:")
+st.markdown("### 💵 Realiza el pago de **S/ 40.00** escaneando el siguiente código con tu billetera móvil:")
 
-# Mostrar imagen QR con tamaño reducido
+# Mostrar imagen QR
 qr_image = Image.open("images/imagen1.png")
-st.image(qr_image, caption="Escanea y paga con Yape, Plin, BBVA, BCP, Interbank, etc.", width=300)
+st.image(qr_image, caption="Yape, Plin, BBVA, BCP, Interbank, etc.", width=300)
 
 # Confirmación de envío
 st.markdown("""
----  
-📩 **Una vez realizado el pago**, por favor envíanos tu comprobante al **correo** o **WhatsApp** para validar tu acceso al grupo VIP.
+---
+📤 **Después de realizar el pago**, envía tu comprobante por **WhatsApp** o **correo electrónico** para validar tu ingreso al grupo **El Contador**.
 """)
-
